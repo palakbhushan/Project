@@ -60,7 +60,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  background-color: rgb(112, 181, 242);
 }
 
 [tabindex="-1"]:focus {
@@ -483,7 +483,7 @@ mark,
 
 .img-thumbnail {
   padding: 0.25rem;
-  background-color: #fff;
+  background-color: rgb(116, 235, 239);
   border: 1px solid #dee2e6;
   border-radius: 0.25rem;
   max-width: 100%;
@@ -506,7 +506,7 @@ mark,
 
 code {
   font-size: 87.5%;
-  color: #e83e8c;
+  color: #e55619;
   word-break: break-word;
 }
 

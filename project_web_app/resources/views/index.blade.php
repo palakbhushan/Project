@@ -7,11 +7,9 @@
       <!-- Mobile Metas -->
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
       <!-- Site Metas -->
-      <meta name="keywords" content="" />
-      <meta name="description" content="" />
-      <meta name="author" content="" />
+ 
       <link rel="shortcut icon" href="{{ url('images/favicon.png') }}" type="">
-      <title>Famms - Fashion HTML Template</title>
+      <title>Book Store</title>
       <!-- bootstrap core css -->
       <link rel="stylesheet" type="text/css" href="{{ url('css\bootstrap.css') }}" />
       <!-- font awesome style -->
@@ -117,9 +115,8 @@
       </div>
 
       <div class="cpy_">
-         <p class="mx-auto">© 2021 All Rights Reserved By <a href="https://html.design/">Free Html Templates</a><br>
+         <p class="mx-auto">© 2022 All Rights Reserved By <a href="https://www.linkedin.com/in/palakbhushan/"> palak</a><br>
          
-            Distributed By <a href="https://themewagon.com/" target="_blank">ThemeWagon</a>
          
          </p>
       </div>
