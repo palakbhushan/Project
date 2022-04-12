@@ -1,0 +1,35 @@
+//book controllers
+// Route::get('/',[BookController::class,'index']);
+
+
+
+//view routes
+// Route::get('index',function(){
+//     return view('index');
+// });
+
+Route::get('home',function(){
+    return view('home');
+});
+
+
+// Route::get('product',function(){
+//     return view('product');
+// });
+
+
+// Route::get('contact',function(){
+//     return view('contact');
+// });
+
+// Route::get('signup',function(){
+//     return view('auth.signup');
+// });
+
+// Route::get('login',function(){
+//     return view('auth.login');
+// });
+
+// Route::get('noaccess',function(){
+//     return view('noaccess');
+// });

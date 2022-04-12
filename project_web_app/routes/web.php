@@ -1,8 +1,9 @@
 <?php
-
+use App\Http\Controllers\sendmail;
 use Illuminate\Support\Facades\Route;
 // use App\Http\controllers\BookController;
 use App\Http\controllers\BookController;
+use App\Http\controllers\authController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,39 +15,24 @@ use App\Http\controllers\BookController;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
-
-
-Route::get('/',[BookController::class,'index']);
-
-Route::get('index',function(){
-    return view('index');
-});
-
-Route::get('home',function(){
+Route::get('/', function () {
     return view('home');
 });
 
 
-Route::get('product',function(){
-    return view('product');
-});
+Route::get('senddata',[sendmail::class,'index1']);
 
 
-Route::get('contact',function(){
-    return view('contact');
-});
+//auth controllers
+Route::get('/login',[authController::class,'login']);
+Route::get('/signup',[authController::class,'signup']);
+//route name for post register is  ->  reguser
+Route::post('reguser',[authController::class,'regUser'])->name('reguser');
+Route::post('loguser',[authController::class,'logUser'])->name('loguser');
 
-Route::get('signup',function(){
-    return view('signup');
-});
 
-Route::get('login',function(){
-    return view('login');
-});
+Route::get('/home',[authController::class,'home']);
 
-Route::get('noaccess',function(){
-    return view('noaccess');
+Route::get('index', function () {
+    return view('index');
 });

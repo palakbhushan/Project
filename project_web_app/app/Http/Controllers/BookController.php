@@ -11,6 +11,6 @@ class BookController extends Controller
     {
         
         
-        return view('home');
+        return view('auth.login');
     }
 }

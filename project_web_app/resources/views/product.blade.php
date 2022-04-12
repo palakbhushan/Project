@@ -2,7 +2,7 @@
 
 @section('content')
 <!-- product section -->
-<section class="product_section layout_padding">
+<section class="product_section layout_padding" style="background-image:url(../images/main-bg.jpg); background-repeat:no-repeat; background-size:cover; max-height:100vh; overflow-y:scroll;">
          <div class="container">
             <div class="heading_container heading_center">
                <h2>
